@@ -40,6 +40,7 @@ export const updateUser = async (req: Request, res: Response) => {
     }
 };
 
+// just for internal testing only
 export const getAllUser = async (req: Request, res: Response) => {
     try {
         const users = await User.findAll();
